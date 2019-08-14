@@ -17,7 +17,7 @@ var myAge= 25
 //Create a variable called lovesCode that is a boolean data type
 
 //Code here
-var lovesCode= "True"
+var lovesCode= True
 
 //////////////////PROBLEM 4////////////////////
 
@@ -76,12 +76,12 @@ var groceries=["apples","milk","eggs","bread"]
 //and goodBoy (a boolean).
 
 //Code Here
-var dog = 
+var dog = {
  name= "Rowdy",
  color= "brown",
  age= 8,
  goodBoy= true
- ;
+}
 
 
 //...access the dog's name from the object and assign it to a
@@ -101,12 +101,12 @@ var devMountainClassPet = dog.name
 
 // Code here
 function nameCheck(name) {
-	if (name = "Steven") {
-		return "What is up Steven?"
-	} else if (name = "Bryan") {
-		return "Hey Bryan!"
-	} else (nameCheck="NAMEPARAM") {
-		return "Cool name, NAMEPARAM"
+	if (name = 'Steven') {
+		return 'What is up Steven?'
+	} else if (name = 'Bryan') {
+		return 'Hey Bryan!'
+	} else (nameCheck='NAMEPARAM') {
+		return 'Cool name, NAMEPARAM'
 	}
 }
 
@@ -118,7 +118,10 @@ function nameCheck(name) {
 // The add function should return the two parameters added together
 
 //Code Here
-function add(num1+num2)
+function add(num1, num2) {
+ return num1 + num2 
+ console.log(add(1,2));
+}
 
 
 
@@ -128,7 +131,7 @@ function add(num1+num2)
 //Code Here
 function add(num1+num2)
 add(3+4)
-mathSum=
+mathSum=7
 
 //////////////////PROBLEM 12////////////////////
 
@@ -177,13 +180,13 @@ function pond() {
 let globalScope = ["duck", "sailorDuck", "rubberDuck", "realDuck"];
 
 //This array should contain the variable names (as strings) accessible in the bathroom function.
-let bathroomScope = ["duck", "sailorDuck", "rubberDuck"];
+let bathroomScope = ["sailorDuck", "rubberDuck"];
 
 //This array should contain the variable names (as strings) accessible in the bathtub function.
-let bathtubScope = ["duck", "sailorDuck];
+let bathtubScope = ["sailorDuck];
 
 //This array should contain the variable names (as strings) accessible in the pond function.
-let pondScope = ["duck", "realDuck"];
+let pondScope = ["realDuck"];
 
 //////////////////PROBLEM 14////////////////////
 
@@ -199,8 +202,14 @@ var age=25 {
 // reassign the value of age to be one greater than it was, because, we all get older
 
 // Code Here
+var age=25 + 1 {
+	age="Maegan"
+}
+
 
 // Good news! We can live forever. Set your age to 999
 
 // Code Here
-age=999
+var age=25 + 974 {
+	age="Maegan"
+}
